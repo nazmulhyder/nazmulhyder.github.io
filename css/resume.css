@@ -164,7 +164,7 @@ section.resume-section .resume-item .resume-date {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
+    min-width: 13rem;
   }
 }
 
@@ -190,3 +190,4 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+

@@ -14,7 +14,7 @@ section.resume-section {
     min-height: 100vh;
     .resume-item {
       .resume-date {
-        min-width: 18rem;
+        min-width: 13rem;
       }
     }
   }
@@ -24,4 +24,26 @@ section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.portfolio-item {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: calc(50% - 20px);
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
