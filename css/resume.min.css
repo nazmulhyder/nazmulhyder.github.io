@@ -4,16 +4,16 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */body{font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';padding-top:54px;color:#868e96}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-weight:700;text-transform:uppercase;color:#343a40}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}h3{font-size:2rem}p.lead{font-size:1.15rem;font-weight:400}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';font-size:1.5rem}.social-icons a{display:inline-block;height:3.5rem;width:3.5rem;background-color:#495057;color:#fff!important;border-radius:100%;text-align:center;font-size:1.5rem;line-height:3.5rem;margin-right:1rem}.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#bd5d38}.dev-icons{font-size:3rem}.dev-icons .list-inline-item i:hover{color:#bd5d38}#sideNav .navbar-nav .nav-item .nav-link{font-weight:800;letter-spacing:.05rem;text-transform:uppercase}#sideNav .navbar-toggler:focus{outline-color:#d48a6e}@media (min-width:992px){#sideNav{text-align:center;position:fixed;top:0;left:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:17rem;height:100vh}#sideNav .navbar-brand{display:-webkit-box;display:-ms-flexbox;display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{max-width:10rem;max-height:10rem;border:.5rem solid rgba(255,255,255,.2)}#sideNav .navbar-collapse{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;width:100%;margin-bottom:auto}#sideNav .navbar-collapse .navbar-nav{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item{display:block}#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:13rem}}@media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}.bg-primary{background-color:#bd5d38!important}.text-primary{color:#bd5d38!important}a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
 
- .image-container {
+ /* .image-container {
     display: flex;
     gap: 20px;
     padding: 10px;
     justify-content: center;
   }
   
-  /* Styled image */
+
   .styled-image {
-    width: 300px; /* Adjust to your desired size */
+    width: 300px; 
     height: 150px;
     border: 5px solid #ddd;
     border-radius: 10px;
@@ -21,22 +21,20 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
   }
   
-  /* Hover effect */
+ 
   .styled-image:hover {
     transform: scale(2.05);
     border-color: #333;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  }
+  } */
 
   #training {
     width: 100%;
     margin: 20px auto;
-    font-family: Arial, sans-serif;
   }
   
   #training h2 {
     text-align: center;
-    font-size: 24px;
     color: #333;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -51,7 +49,6 @@
   }
   
   .training-item h3 {
-    font-size: 20px;
     color: #333;
     margin-top: 0;
   }
@@ -67,7 +64,6 @@
 
   /* Body and Container Styling */
 body {
-  font-family: Arial, sans-serif;
   background: #f7f7f7;
   color: #333;
   display: flex;
@@ -85,7 +81,6 @@ body {
 }
 
 #skills h2 {
-  font-size: 28px;
   text-transform: uppercase;
   color: #333;
   margin-bottom: 30px;
@@ -98,7 +93,6 @@ body {
 }
 
 .skill-category h3 {
-  font-size: 20px;
   color: #444;
   margin-bottom: 15px;
   border-bottom: 2px solid #ddd;
@@ -111,8 +105,6 @@ body {
 }
 
 .skill-name {
-  font-size: 16px;
-  font-weight: bold;
   margin-bottom: 5px;
   color: #333;
 }
@@ -136,4 +128,231 @@ body {
   background: linear-gradient(135deg, #4CAF50, #81C784);
   border-radius: 20px 0 0 20px;
   transition: width 0.8s ease;
+}
+
+/* Basic styling for the Education section */
+#education {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#education h2 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+
+/* Education Entry Styling */
+.education-entry {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.entry-icon {
+  color: #007bff; /* Primary color */
+  margin-right: 20px;
+}
+
+.entry-content {
+  text-align: left; /* Align text to the left */
+}
+
+.education-entry h3 {
+  color: #333;
+  margin: 0 0 5px;
+}
+
+.degree, .duration, .gpa {
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+  .education-entry {
+    max-width: 100%; /* Optional: limit width on larger screens */
+    margin: 20px auto; /* Center the entry */
+  }
+
+  #education h2 {
+  }
+
+  .education-entry h3 {
+  }
+}
+
+
+/* Basic styling for the Job Description section */
+#job-description {
+  background-color: #f9f9f9; /* Light background */
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#job-description h2 {
+  margin-bottom: 40px;
+}
+
+/* Job Entry Styling */
+.job-entry {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.job-entry:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Role and Time Styling */
+.job-role {
+  text-align: left; /* Align text to the left */
+}
+
+.job-time {
+  float: right;
+  text-align: right; /* Align time text to the right */
+  color: #888; /* Grey color for time */
+}
+
+/* Company and Responsibilities Styling */
+.company {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.company h4 {
+  color: #007bff; /* Primary color for company name */
+}
+
+.responsibilities {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.responsibilities h5 {
+  margin-bottom: 10px;
+}
+
+.responsibilities ul {
+  list-style-type: disc;
+  padding-left: 20px; /* Indent for bullet points */
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+  .job-entry {
+    max-width: 100%; /* Optional: limit width on larger screens */
+    margin: 20px auto; /* Center the entry */
+  }
+
+}
+/* Basic Styling */
+/* Basic Styling */
+#projects {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 60px 20px; /* Padding for top and bottom */
+  text-align: center; /* Center text for the main title */
+}
+
+.container {
+  max-width: 1200px; /* Limit the width for better readability */
+  margin: auto; /* Center container */
+  padding: 0 20px; /* Horizontal padding */
+}
+
+h2 {
+  margin-bottom: 30px; /* Space below heading */
+  color: #333; /* Dark color for text */
+}
+
+/* Project Card Styling */
+.project-card {
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside the card */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  margin-bottom: 40px; /* Space between cards */
+  transition: transform 0.3s ease; /* Transition for hover effect */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Lift card slightly on hover */
+}
+
+.project-card h3 {
+  margin-bottom: 15px; /* Space below project name */
+  color: #333; /* Dark color for text */
+}
+
+.project-card ul {
+  list-style-type: disc; /* Bullet points for the list */
+  padding-left: 20px; /* Indent for bullet points */
+  text-align: left; /* Align text to the left */
+  margin-bottom: 20px; /* Space below list */
+}
+
+.project-card li {
+  margin-bottom: 10px; /* Space between bullet points */
+  color: #666; /* Lighter color for text */
+}
+
+/* Project Images Styling */
+.project-images {
+  display: flex; /* Flexbox for images */
+  flex-wrap: wrap; /* Allow images to wrap into the next row */
+  justify-content: space-between; /* Space between images */
+  margin-top: 20px; /* Space above images */
+}
+
+.project-images img {
+  flex: 0 1 30%; /* Allow images to take up to 30% of the width */
+  max-width: 16%; /* Maximum width for each image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  transition: transform 0.3s ease; /* Transition for hover effect */
+  margin-bottom: 20px; /* Space below images */
+}
+
+.project-images img:hover {
+  transform: scale(3.05); /* Zoom in image on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .project-card h3 {
+    font-size: 1.8em;
+  }
+
+  .project-card ul {
+    font-size: 0.95em; 
+  }
+
+  .project-images img {
+    flex: 0 1 48%; /* Two images per row on small screens */
+    max-width: 48%; /* Maximum width for each image */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-images img {
+    flex: 0 1 100%; /* Full width for images on extra small screens */
+    max-width: 100%; /* Maximum width for each image */
+  }
 }
